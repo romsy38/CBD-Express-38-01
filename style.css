@@ -1,7 +1,0 @@
-
-body { font-family: Arial; background: #f5f5f5; margin: 0; padding: 0; }
-header { background: #264d38; color: white; text-align: center; padding: 1em; }
-.logo { height: 80px; }
-.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 2em; }
-.product-card { background: white; padding: 1em; border-radius: 8px; box-shadow: 0 0 10px #ccc; width: 200px; text-align: center; }
-footer { background: #264d38; color: white; text-align: center; padding: 1em; position: fixed; bottom: 0; width: 100%; }
