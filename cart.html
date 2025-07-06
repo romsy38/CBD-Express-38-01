@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GreenZen - Fleurs CBD Premium</title>
+  <title>Panier - GreenZen</title>
   <link rel="stylesheet" href="styles.css">
   <!-- Snipcart CSS -->
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3/default/snipcart.css">
@@ -25,26 +25,23 @@
       </nav>
     </div>
   </header>
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Fleurs CBD Premium</h2>
-      <p>Découvrez nos fleurs de CBD bio, cultivées avec soin et livrées partout en France</p>
-      <a href="products.html" class="btn">Voir la boutique</a>
+  <section class="cart">
+    <h2>Votre Panier</h2>
+    <div class="snipcart-cart">
+      <div class="snipcart-cart__items">
+        <!-- Snipcart will populate cart items here -->
+        <div class="snipcart-cart__empty" data-snipcart-empty>
+          <p>Votre panier est vide. <a href="products.html">Retourner à la boutique</a>.</p>
+        </div>
+        <div class="snipcart-cart__content" data-snipcart-content>
+          <!-- Snipcart cart items will be dynamically inserted -->
+        </div>
+      </div>
+      <div class="snipcart-cart__summary">
+        <p>Total: <span class="snipcart-total-price"></span></p>
+        <button class="btn snipcart-checkout">Passer à la caisse</button>
+      </div>
     </div>
-  </section>
-  <section class="livraison-rapide">
-    <h3>🚚 Livraison immédiate en Isère (38) et Ain (01)</h3>
-    <p>Appelez-nous ou contactez-nous sur WhatsApp, et on se déplace tout de suite chez vous. Livraison rapide et discrète garantie.</p>
-    <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
-    <p><strong>WhatsApp :</strong> <a href="https://wa.me/+33612345678">06 12 34 56 78</a></p>
-  </section>
-  <section class="why">
-    <h2>Pourquoi nous choisir ?</h2>
-    <ul>
-      <li>✅ CBD 100% légal & testé en laboratoire</li>
-      <li>🚚 Livraison rapide en 48h</li>
-      <li>🌱 Culture bio et écoresponsable</li>
-    </ul>
   </section>
   <footer>
     <p>© 2025 GreenZen - CBD légal en France</p>
