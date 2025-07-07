@@ -272,14 +272,6 @@ h1 {
   letter-spacing: 2px;
   font-size: 20px;
 }
-
-.icon-left, .icon-right {
-  width: 50px;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-}
-
 .tricolor-bar {
   display: flex;
   height: 4px;
