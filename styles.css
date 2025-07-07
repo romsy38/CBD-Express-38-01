@@ -258,8 +258,9 @@ h1 {
 .top-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
+  height: 80px;
+  background-color: #17342b;
+  position: relative;
 }
 
 .logo-container {
