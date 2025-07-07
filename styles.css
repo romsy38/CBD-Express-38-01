@@ -390,7 +390,7 @@ h1 {
 }
 
 .navbar-logo-fit {
-  height: 80px; /* même que .top-bar */
+  height: 100px; /* même que .top-bar */
   width: auto;
 }
 
