@@ -228,10 +228,9 @@ footer {
   font-family: 'Segoe UI', serif;
 }
 
-.navbar-logo {
-  height: 100px;
-  width: 100px;
-  margin-right: 10px;
+.navbar-logo-small {
+  height: 45px;
+  width: auto;
   display: inline-block;
   vertical-align: middle;
 }
