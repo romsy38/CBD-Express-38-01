@@ -380,3 +380,45 @@ h1 {
   font-size: 20px;
   color: white;
 }
+
+/* Logo aligné à gauche qui prend la hauteur de la top-bar */
+.logo-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navbar-logo-fit {
+  height: 80px; /* même que .top-bar */
+  width: auto;
+}
+
+/* Ligne tricolore fine sous la top-bar, alignée à droite du logo */
+.tricolor-line {
+  position: absolute;
+  bottom: 0;
+  left: 110px; /* adapte selon la largeur de ton logo */
+  right: 0;
+  height: 4px;
+  display: flex;
+  z-index: 2;
+}
+
+.tricolor-line::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, blue 33.33%, white 33.33% 66.66%, red 66.66%);
+}
+
+/* Corrige la position du panier à droite */
+.top-bar .icon-right {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+}
