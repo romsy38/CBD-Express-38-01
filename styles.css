@@ -320,16 +320,6 @@ h1 {
   font-size: 20px;
   color: white;
 }
-
-.tricolor-bar .blue { flex: 1; background-color: blue; }
-.tricolor-bar .white { flex: 1; background-color: white; }
-.tricolor-bar .red { flex: 1; background-color: red; }
-.main-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
 .icon-left i,
 .icon-right i {
   font-size: 18px;
