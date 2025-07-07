@@ -75,8 +75,8 @@ nav a:hover {
 
 .tricolor-bar {
   display: flex;
-  height: 4px;
-  margin-left: 80px; /* adapte si besoin selon la largeur réelle de ton logo */
+  height: 100%;
+  flex-grow: 1;
 }
 .hero {
   background: url('https://images.unsplash.com/photo-1603297631942-2f6a4470be6a') center/cover no-repeat;
