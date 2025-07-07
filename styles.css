@@ -230,8 +230,8 @@ footer {
 
 #resize the logo
 .navbar-logo {
-  height: 40px;
+  height: 4px;
   width: auto;
-  margin-right: 10px;
+  margin-right: 1px;
   display: inline-block;
 }
