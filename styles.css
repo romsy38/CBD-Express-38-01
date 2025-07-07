@@ -398,7 +398,7 @@ h1 {
 .tricolor-line {
   position: absolute;
   bottom: 0;
-  left: calc(20px + 80px); /* padding-left du logo + sa largeur */
+  left: calc(20px + 80px); /* à adapter dynamiquement selon le logo */
   right: 0;
   height: 4px;
   display: flex;
