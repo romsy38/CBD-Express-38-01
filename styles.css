@@ -347,3 +347,36 @@ h1 {
 .search-icon:hover {
   opacity: 1;
 }
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  position: relative;
+  background-color: #17342b;
+}
+
+.navbar-logo-centered {
+  height: 80px;
+  width: auto;
+}
+
+.tricolor-bar {
+  display: flex;
+  width: 100%;
+  height: 6px;
+  margin-top: 5px;
+}
+
+.tricolor-bar .blue { flex: 1; background-color: blue; }
+.tricolor-bar .white { flex: 1; background-color: white; }
+.tricolor-bar .red { flex: 1; background-color: red; }
+
+.icon-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  color: white;
+}
