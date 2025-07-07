@@ -227,3 +227,8 @@ footer {
   border-radius: 5px;
   font-family: 'Segoe UI', sans-serif;
 }
+
+.navbar-logo {
+  height: 4px;
+  margin-right: 1px;
+}
