@@ -45,6 +45,39 @@ nav a:hover {
   color: #7bc78f;
 }
 
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: #17342b;
+  height: 80px;
+  padding: 0;
+}
+
+.logo-zone {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navbar-logo-large {
+  height: 100%;
+  width: auto;
+}
+
+.logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.tricolor-bar {
+  display: flex;
+  height: 4px;
+  margin-left: 80px; /* adapte si besoin selon la largeur réelle de ton logo */
+}
 .hero {
   background: url('https://images.unsplash.com/photo-1603297631942-2f6a4470be6a') center/cover no-repeat;
   height: 80vh;
@@ -254,19 +287,6 @@ h1 {
   background-color: #17342b;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
-.top-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-.logo-container {
-  text-align: center;
-  flex-grow: 1;
-}
-
 .navbar-title {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
