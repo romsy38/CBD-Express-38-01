@@ -294,11 +294,6 @@ h1 {
   letter-spacing: 2px;
   font-size: 20px;
 }
-.tricolor-bar {
-  display: flex;
-  height: 4px;
-}
-
 .tricolor-bar .blue { flex: 1; background-color: blue; }
 .tricolor-bar .white { flex: 1; background-color: white; }
 .tricolor-bar .red { flex: 1; background-color: red; }
@@ -326,24 +321,9 @@ h1 {
   color: white;
 }
 
-.tricolor-bar {
-  display: flex;
-  height: 4px;
-}
-
 .tricolor-bar .blue { flex: 1; background-color: blue; }
 .tricolor-bar .white { flex: 1; background-color: white; }
 .tricolor-bar .red { flex: 1; background-color: red; }
-
-.main-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  background-color: #17342b;
-}
-
 .main-nav a {
   color: white;
   text-decoration: none;
