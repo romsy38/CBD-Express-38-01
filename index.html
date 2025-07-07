@@ -13,25 +13,24 @@
 <body>
   <header class="header-bar">
   <div class="top-bar">
-    
-    <!-- Icône à gauche -->
-    <div class="icon-left" onclick="toggleSearch()">
-  <i class="fas fa-search"></i>
-</div>
 
-    <!-- Barre de recherche -->
-<div id="search-box" style="display: none; text-align: center; padding: 10px;">
-  <input type="text" placeholder="Rechercher..." style="padding: 8px; width: 60%; border-radius: 5px; border: 1px solid #ccc;">
-</div>
-    
-    <!-- Logo centré -->
-    <div class="logo-container">
-      <img src="logo.png" alt="Logo" class="navbar-logo">
-      <h1 class="navbar-title">CBD Express 38-01</h1>
+    <!-- Logo à gauche -->
+    <div class="icon-left">
+      <img src="logo.png" alt="Logo" class="navbar-logo-small">
     </div>
 
-    <!-- Icône à droite -->
-    <div class="icon-right">🛒</div>
+    <!-- Nom + loupe au centre -->
+    <div class="logo-container">
+      <h1 class="navbar-title">CBD EXPRESS 38-01</h1>
+      <div class="search-icon" onclick="toggleSearch()">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+
+    <!-- Icône panier à droite -->
+    <div class="icon-right">
+      <i class="fas fa-shopping-bag"></i>
+    </div>
   </div>
 
   <!-- Ligne tricolore -->
